@@ -9,8 +9,8 @@ export default function BoardShowOnly({
 }) {
   const winner = calculateWinner(squares);
   const boardContent = (
-    <div>
-      <button>jump to step</button>
+    <div style={{ marginBottom: "8px" }}>
+      <button style={{ marginBottom: "8px" }}>jump to step</button>
       {Array(3)
         .fill(null)
         .map((e, i) => {
